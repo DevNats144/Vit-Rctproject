@@ -1,0 +1,115 @@
+.contentor {
+
+  display: flex;
+  align-items: center;
+  padding-top: 75px;
+  flex-direction: column;
+
+}
+
+h1 {
+  color: rgb(233, 255, 255);
+
+}
+
+form {
+
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding: 25px;
+  border-radius: 20px;
+  background-color: rgb(29, 74, 74);
+  max-width: 50%;
+  width: 400px;
+  margin-bottom: 20px;
+
+
+  & button {
+    font-family: poppins, sans-serif;
+    border-radius: 28px;
+    background-color: rgb(19, 255, 255);
+    height: 40px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  & button:hover {
+
+    opacity: 0.8;
+  }
+
+
+
+  & input {
+
+    border-radius: 15px;
+    border: 1px solid rgb(52, 29, 74);
+    background-color: rgb(76, 161, 161);
+    color: rgb(233, 255, 255);
+    padding-left: 10px;
+    height: 35px;
+    outline: none;
+
+    &::placeholder {
+      color: rgb(233, 255, 255);
+      opacity: 1;
+
+    }
+
+  }
+
+
+
+}
+
+.card {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgb(29, 74, 74);
+  margin: 5px;
+  padding: 6px;
+  width: 300px;
+  border-radius: 20px;
+  padding-top: 10px;
+  padding: 7px;
+  font-family: poppins, sans-serif;
+
+
+  & p {
+
+    color: rgb(131, 222, 222);
+    font-weight: bold;
+  }
+
+  & span {
+    font-weight: normal;
+    background-color: rgb(38, 90, 90);
+
+  }
+
+}
+
+
+.expecify {
+  color: #1e1d1d;
+  border-radius: 15px;
+  border: rgb(143, 143, 180);
+  cursor: pointer;
+  background-color: rgb(12, 240, 240);
+  width: 95px;
+  height: 45px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  margin-left: 80px;
+  font-size: 10px;
+}
+
+.expecify:hover {
+  opacity: 0.8;
+
+}
