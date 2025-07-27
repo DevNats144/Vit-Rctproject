@@ -116,6 +116,7 @@ form {
 
 @media screen and (max-width: 600px) {
   .contentor {
+    margin-top: 10px;
     padding-top: 50px;
   }
 
@@ -125,7 +126,7 @@ form {
   }
 
   .card {
-    width: 90%;
+    width: 85%;
   }
 
   .expecify {
