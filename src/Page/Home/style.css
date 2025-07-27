@@ -113,3 +113,26 @@ form {
   opacity: 0.8;
 
 }
+
+@media screen and (max-width: 600px) {
+  .contentor {
+    padding-top: 50px;
+  }
+
+  form {
+    max-width: 90%;
+    width: 100%;
+  }
+
+  .card {
+    width: 90%;
+  }
+
+  .expecify {
+    margin-left: 0;
+    width: 80px;
+    height: 40px;
+    font-size: 9px;
+  }
+  
+}
