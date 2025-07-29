@@ -12,7 +12,7 @@ function Home() {
   const inputage = useRef() 
   const inputemail = useRef()
 
-  
+ 
             // Alistamento de users //
 
   async function getUsers(){
