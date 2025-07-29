@@ -2,7 +2,7 @@ import axios from 'axios';
 
 const Api = axios.create({
 
-    baseURL: 'http://localhost:4000/'//Endereco onde se encontra a nossa API
+    baseURL: 'https://the-apiproj.onrender.com'//Endereco onde se encontra a nossa API
 
 })
 
