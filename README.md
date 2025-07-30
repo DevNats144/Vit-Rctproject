@@ -1,12 +1,39 @@
-# React + Vite
+# Página de cadastro de usuário
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto é uma aplicação de cadastro de usuários desenvolvida com **React + Vite**, conectada a um backend com **MongoDB** via **API REST**. O objetivo principal é permitir a criação, listagem e exclusão de usuários de forma simples e eficiente.
 
-Currently, two official plugins are available:
+## 🔍 Visão geral
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A aplicação permite:
 
-## Expanding the ESLint configuration
+- ✅ Cadastrar novos usuários (nome, idade e e-mail)
+- 📋 Listar todos os usuários cadastrados
+- ❌ Deletar usuários existentes
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tecnologias utilizadas
+
+**Frontend:**
+- React
+- Vite
+- CSS
+
+**Backend (API):**
+- Node.js
+- Express
+- MongoDB
+- Mongoose
+
+## 📦 Instalação e execução
+
+### Pré-requisitos
+
+- Node.js instalado
+- MongoDB rodando localmente ou via Atlas
+- Gerenciador de pacotes (npm ou yarn)
+
+### Instalar dependências
+
+```bash
+npm install
+# ou
+yarn
