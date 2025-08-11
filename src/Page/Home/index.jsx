@@ -74,7 +74,7 @@ function Home() {
               <p>Email: <span>{user.email}</span></p>
             </div>
             <button className='expecify' onClick={ () => deleteUser(user.id)}>
-              <h2>Apagar User</h2>
+              <h2>Apagar Usuário</h2>
             </button>
           </div>
 
