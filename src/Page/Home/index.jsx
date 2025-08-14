@@ -38,7 +38,7 @@ function Home() {
 
   async function deleteUser(id){
 
-     await Api.delete(`/usersss/${id}`)
+     await Api.delete(`/usersss/:${id}`)
 
       getUsers()
 
