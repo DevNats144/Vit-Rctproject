@@ -28,8 +28,7 @@ function Home() {
 
          await Api.post('/userss',{
 
-      name: inputname.current.value,
-      age: inputage.current.value,
+      name: inputname.current.value
       email: inputemail.current.value
 
      })
