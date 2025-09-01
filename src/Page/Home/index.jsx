@@ -26,7 +26,7 @@ function Home() {
 
    async function creatUser() {
 
-         await Api.post('/userss',{
+         await Api.post('/user',{
 
       name: inputname.current.value,
       age: inputage.current.value,
@@ -38,7 +38,7 @@ function Home() {
 
   async function deleteUser(id){
 
-     await Api.delete(`/usersss/:${id}`)
+     await Api.delete(`/user/:${id}`)
 
       getUsers()
 
