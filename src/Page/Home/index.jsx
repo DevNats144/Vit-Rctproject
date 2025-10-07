@@ -73,7 +73,7 @@ function Home() {
               <p>Idade: <span>{user.age}</span></p>
               <p>Email: <span>{user.email}</span></p>
             </div>
-            <button className='expecify' onClick={() => deleteUser(user.id)}>
+            <button className='expecify' onClick={ () => deleteUser(user.id)}>
               <h2>Apagar Usuário</h2>
             </button>
           </div>
