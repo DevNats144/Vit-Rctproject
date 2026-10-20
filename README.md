@@ -17,23 +17,35 @@ A aplicação permite:
 - Vite
 - CSS
 
-**Backend (API):**
-- Node.js
-- Express
-- MongoDB
-- Mongoose
+**API local:**
+- JSON Server
 
 ## 📦 Instalação e execução
 
 ### Pré-requisitos
 
 - Node.js instalado
-- MongoDB rodando localmente ou via Atlas
 - Gerenciador de pacotes (npm ou yarn)
 
 ### Instalar dependências
 
+```
+
+### Executar a aplicação
+
+Abra dois terminais na pasta do projeto:
+
 ```bash
+# Terminal 1: inicia a API local na porta 3000
+npm run server
+```
+
+```bash
+# Terminal 2: inicia o frontend
+npm run dev
+```
+
+Os usuários são salvos em `db.json`. Mantenha os dois processos em execução enquanto usa a aplicação.bash
 npm install
 # ou
 yarn
