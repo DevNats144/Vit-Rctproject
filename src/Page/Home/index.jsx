@@ -23,7 +23,7 @@ function Home() {
       setUser(UserFromNat.data)
       setError('')
     } catch {
-      setError('Não foi possível conectar à API. Inicie-a com "npm run server" e tente novamente.')
+      setError('Não foi possível conectar à API.')
     }
 
   }
