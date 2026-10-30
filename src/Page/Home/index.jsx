@@ -49,7 +49,7 @@ function Home() {
   async function deleteUser(id) {
 
     try {
-      await Api.delete(`/user/${id}`)
+      await Api.delete(`/users/${id}`)
       await getUsers()
     } catch {
       setError('Não foi possível apagar o usuário. Verifique se a API está em execução.')
